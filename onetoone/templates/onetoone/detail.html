@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>"{{college.collegeName}}"</h1>
+<ol>
+    <li>
+    <p>Principle Name: "{{college.principle.firstName}}{{college.principle.lastName}}"</p>
+    </li>
+    <li>
+    <p>Age: "{{college.principle.age}}"</p>
+    </li>
+    <li>
+    <p>Qualification: "{{college.principle.qualification}}"</p>
+    </li>
+
+</ol>
+<a href="{% url 'onetoone' %}">MOve to mainPage</a>
+</body>
+</html>

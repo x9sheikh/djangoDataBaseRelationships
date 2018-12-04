@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h5>All Colleges Detail is Here</h5>
+{% for college in allColleges %}
+    <ul>
+        <li>
+            <a href="detail/{{college.id}}">{{college}}</a>
+        </li>
+    </ul>
+{% endfor %}
+</body>
+</html>
